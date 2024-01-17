@@ -258,7 +258,7 @@ li {
     margin-top: 20px;
 }
 
-/* SEEEEEEEEEEEEEEEEEEEEEEEEECCCCCCCCCCCCCCTIIIIIIIIIIIIIN */
+
 .choose-us-card {
     text-align: center;
     margin-top: 10%;
@@ -685,7 +685,7 @@ li {
     border-radius: 16px;
     line-height: 1;
     margin-top: 15%;
-  margin-left: 45%;
+    margin-left: 45%;
 
 }
 
@@ -710,7 +710,7 @@ li {
 }
 
 
-footer{
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -719,17 +719,30 @@ footer{
     background: rgba(19, 19, 24, 0.05);
     height: 502px;
 }
-.logo-details-footer{
+
+.logo-details-footer {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-footer> hr{
+
+footer>hr {
     background: rgba(19, 19, 24, 0.10);
     width: 872px;
     border: none;
     height: 1px;
 }
+
+.links ul {
+    display: flex;
+}
+
+.links ul>li {
+    width: 80px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
 /* SEEEEEEEEEEEEEEEEEEEEEEEEECCCCCCCCCCCCCCTIIIIIIIIIIIIIN */
 
 @media screen and (max-width: 600px) {
@@ -893,6 +906,26 @@ footer> hr{
 
     }
 
-
-
+    .deal-card-warp  {
+        width: 545px;
+        height: 500px;
+        flex-shrink: 0;
+        border: 16px;
+    }
+    .deal-card-main {
+     
+        width: 303px;
+        height: 297px;
+        margin-top: 20%;
+        padding-top: 2px;
+  padding-bottom: 47px;
+  padding-right: 29px;
+  margin-left: 18%;
+  padding-left: 26px;
+  
+    }
+    .deal-card-main>h4 {
+        margin-top: -20.08px;
+    }
+    
 }
