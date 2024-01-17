@@ -136,14 +136,22 @@ li {
 
 
 .categories li>button {
-    width: 100%;
-    height: 100%;
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
     display: block;
     box-sizing: border-box;
     text-align: start;
     font-family: 'Mulish';
     padding-left: 16px;
-    color: #ffffff;
+
+    color: #FFF;
+    text-align: center;
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
     background-color: #FF5400;
     border-radius: 8px;
     border-color: #FF5400;
@@ -200,6 +208,7 @@ li {
     font-size: 20px;
     font-family: 'Mulish';
     border: none;
+    cursor: pointer;
 
 }
 
@@ -209,8 +218,100 @@ li {
 
 }
 
+.read-here{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.read-card-warp {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5px;
+    row-gap: 7px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.read-card {
+    position: relative;
+    border-radius: 35px;
+   
+}
+
+.read-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 35px;
+}
+
+.read-card-content {
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+.read-card .read-card-content>p {
+    font-size: 1.5em;
+}
+
+.read-card-details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.534);
+    padding: 20px;
+    height: 30%;
+    transition: height 0.5s ease;
+}
 
 
+.writer-info {
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+font-family: 'Mulish';
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px; /* 162.5% */
+}
+.writer-info a{
+    text-decoration: none;
+    color: #000;
+}
+
+.read-card h1 {
+    margin-bottom: 10px;
+    color:#000000;
+    
+}
+
+.read-card button {
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    color: #ffffff;
+    background: #FF5400;
+    font-size: 20px;
+    font-family: 'Mulish';
+    border: none;
+    cursor: pointer;
+}
+
+.read-card-details:hover .read-card-content {
+    opacity: 1;
+    visibility: visible;
+}
+
+.read-card:hover .read-card-details {
+    height: 100%;
+}
 
 
 
@@ -523,6 +624,7 @@ li {
     line-height: normal;
     margin-top: 2%;
     background: #FF5400;
+    cursor: pointer;
 }
 
 
@@ -566,6 +668,7 @@ li {
     line-height: normal;
     margin-top: 2%;
     background: #FF5400;
+    cursor: pointer;
 }
 
 
@@ -610,12 +713,14 @@ li {
     line-height: normal;
     margin-top: 2%;
     background: #FF5400;
+    cursor: pointer;
 }
 
 .more-btn {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .more-btn button {
@@ -631,6 +736,7 @@ li {
     line-height: normal;
     margin-top: 2%;
     background: #FF5400;
+    cursor: pointer;
 }
 
 .place-tours {
@@ -718,6 +824,7 @@ li {
     line-height: normal;
     margin-top: 2%;
     background: #FF5400;
+    cursor: pointer;
 }
 
 .right-side>img {
@@ -784,6 +891,17 @@ footer>hr {
     width: 872px;
     border: none;
     height: 1px;
+}
+
+footer p {
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
 }
 
 .links ul {
@@ -874,6 +992,9 @@ footer>hr {
         margin-bottom: 2%;
 
     }
+    .categories li > button{
+        width: 100%;
+    }
 
     .popular-tours {
         display: flex;
@@ -895,6 +1016,17 @@ footer>hr {
 
 
     }
+
+    .read-card-warp{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .read-card-details{
+        font-size: smaller;
+    }
+
+
 
     .choose-dest {
         display: flex;
@@ -1124,7 +1256,15 @@ footer>hr {
     }
 
     .footer p {
-        width: 424px;
+        width: 426px;
         text-align: center;
+        color: #5A5A5D;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 171.429% */
     }
 }
