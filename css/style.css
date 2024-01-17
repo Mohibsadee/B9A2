@@ -72,7 +72,7 @@ input {
     align-items: center;
     flex-direction: column;
     border-radius: 16px;
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../B9A2-Hero-Travel/Images/Group\ 13\ \(1\)\ \(1\).png");
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
     width: 100%;
     max-width: 1170px;
     height: 500px;
@@ -540,7 +540,7 @@ line-height: 26px; /* 162.5% */
     width: 1170px;
     height: 500px;
     flex-shrink: 0;
-    background-image: url("../B9A2-Hero-Travel/Images/Group\ 39.png");
+    background-image: url("../Images/Group\ 39.png");
     margin: 0 auto 20px;
     display: block;
 }
@@ -632,7 +632,7 @@ line-height: 26px; /* 162.5% */
     width: 1170px;
     height: 500px;
     flex-shrink: 0;
-    background-image: url("../B9A2-Hero-Travel/Images/Group\ 40.png");
+    background-image: url("../Images/Group\ 40.png");
     margin: 0 auto 20px;
     display: block;
 }
@@ -677,7 +677,7 @@ line-height: 26px; /* 162.5% */
     width: 1170px;
     height: 500px;
     flex-shrink: 0;
-    background-image: url("../B9A2-Hero-Travel/Images/Group\ 39.png");
+    background-image: url("../Images/Group\ 39.png");
     margin: 0 auto 20px;
     display: block;
 }
