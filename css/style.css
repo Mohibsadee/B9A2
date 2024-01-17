@@ -808,7 +808,7 @@ footer>hr {
     }
 
     .right-pt {
-        margin-top: 5%;
+        margin-top: 10%;
 
     }
 
@@ -984,7 +984,7 @@ footer>hr {
     .place-tours {
         display: flex;
         flex-direction: column;
-        margin-left: 5%;
+        margin-left: 10%;
     }
 
     .left-pt {
@@ -1014,7 +1014,7 @@ footer>hr {
 
     .form-cls {
         flex-direction: column;
-        margin-left: 4%;
+        margin-left: 10%;
 
     }
 
