@@ -906,26 +906,76 @@ footer>hr {
 
     }
 
-    .deal-card-warp  {
+    .deal-card-warp {
         width: 545px;
         height: 500px;
         flex-shrink: 0;
         border: 16px;
     }
+
     .deal-card-main {
-     
+
         width: 303px;
         height: 297px;
         margin-top: 20%;
         padding-top: 2px;
-  padding-bottom: 47px;
-  padding-right: 29px;
-  margin-left: 18%;
-  padding-left: 26px;
-  
+        padding-bottom: 47px;
+        padding-right: 29px;
+        margin-left: 18%;
+        padding-left: 26px;
+
     }
+
     .deal-card-main>h4 {
         margin-top: -20.08px;
     }
-    
+
+    .deal-card-warp-second {
+        width: 545px;
+        height: 500px;
+        flex-shrink: 0;
+        border: 16px;
+    }
+
+    .deal-card-main-second {
+
+        width: 303px;
+        height: 297px;
+        margin-top: 20%;
+        padding-top: 2px;
+        padding-bottom: 47px;
+        padding-right: 29px;
+        margin-left: 18%;
+        padding-left: 26px;
+
+    }
+
+    .deal-card-main-second>h4 {
+        margin-top: -20.08px;
+    }
+
+    .deal-card-warp-third {
+        width: 545px;
+        height: 500px;
+        flex-shrink: 0;
+        border: 16px;
+    }
+
+    .deal-card-main-third {
+
+        width: 303px;
+        height: 297px;
+        margin-top: 20%;
+        padding-top: 2px;
+        padding-bottom: 47px;
+        padding-right: 29px;
+        margin-left: 18%;
+        padding-left: 26px;
+
+    }
+
+    .deal-card-main-third>h4 {
+        margin-top: -20.08px;
+    }
+
 }
