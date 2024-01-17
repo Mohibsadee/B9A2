@@ -813,7 +813,8 @@ footer>hr {
     }
 
     .right-pt img {
-        max-width: 100%;
+
+        width: 480px;
 
 
     }
@@ -844,9 +845,11 @@ footer>hr {
         row-gap: 15px;
 
     }
-
+    .area-container  img{
+        width: 443px;
+    }
     .img-container {
-        width: 573px;
+        width: 488px;
         height: 300px;
         flex-shrink: 0;
         margin: 2%;
@@ -907,10 +910,10 @@ footer>hr {
     }
 
     .deal-card-warp {
-        width: 545px;
+        width: 495px;
         height: 500px;
         flex-shrink: 0;
-        border: 16px;
+        border-radius: 16px;
     }
 
     .deal-card-main {
@@ -931,10 +934,10 @@ footer>hr {
     }
 
     .deal-card-warp-second {
-        width: 545px;
+        width: 495px;
         height: 500px;
         flex-shrink: 0;
-        border: 16px;
+        border-radius: 16px;
     }
 
     .deal-card-main-second {
@@ -955,10 +958,10 @@ footer>hr {
     }
 
     .deal-card-warp-third {
-        width: 545px;
+        width: 495px;
         height: 500px;
         flex-shrink: 0;
-        border: 16px;
+        border-radius: 16px;
     }
 
     .deal-card-main-third {
@@ -978,4 +981,68 @@ footer>hr {
         margin-top: -20.08px;
     }
 
+    .place-tours {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+    }
+
+    .left-pt {
+
+        margin-bottom: 45px;
+        margin-right: 5%;
+        width: 333px;
+
+    }
+    .left-pt p{
+        width: 484px;
+    }
+
+    .right-pt-vid {
+        margin-top: 5%;
+        margin-left: -20%;
+    }
+
+    .right-pt-vid> iframe {
+
+        margin-top: 5%;
+        margin-left: 15%;
+        border-radius: 35px;
+        width: 483px;
+
+    }
+
+    .form-cls {
+        flex-direction: column;
+        margin-left: 4%;
+
+    }
+
+    .left-side {
+        margin-bottom: 5%;
+        margin-right: 4%;
+        height: 432px;
+        width: 433px;
+    }
+    .left-side button{
+      
+        width: 400px;
+    }
+
+    .right-side>img {
+        width: 454px;
+        height: 452px;
+        border-radius: 35px;
+        flex-shrink: 0;
+    }
+
+    .offer-cls {
+        margin-top: 129%;
+        margin-bottom: 0;
+        margin-left: 20%;
+    }
+    .footer p{
+        width: 424px;
+        text-align: center;
+    }
 }
